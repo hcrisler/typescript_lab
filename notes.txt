@@ -1,0 +1,38 @@
+//don't have nodemon installed, need to google & add
+//or manually run node TS_lab.js
+
+let isDone = true;
+let isDone : boolean = true;
+
+let ten = 10;
+let ten : number = 10;
+
+let firstName = "Hannah";
+let firstName : string = "Hannah";
+
+let arrayOfBurgers = ["Cheese", "Veggie", "Mushroom", "Double"];
+let arrayOfBurgers : string[] = ["Cheese", "Veggie", "Mushroom", "Double"];
+
+
+
+An interface is an outline or blueprint for creating objects
+Gives info such as objects properties, data type, & methods, etc.
+
+
+
+functions in JS vs TS
+
+JS function -
+function addNumbers(x, y){
+    return x+y;
+}
+
+TS functions -
+function addNumbers(x:number, y:number) : number {
+    return x+y;
+}
+console.log(addNumbers(5,8));
+function addLetters(x:string, y:string) : string {
+    return x+y;
+}
+console.log(addNumbers('a', 'b'));

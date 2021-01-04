@@ -1,6 +1,3 @@
-//don't have nodemon installed, need to google & add
-//or manually run node TS_lab.js
-
 //part one
 interface Mountain {
     name: string;
